@@ -1,0 +1,25 @@
+{
+    "name": "vis/laravel-redirect-page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smony",
+            "email": "vladimir.simonchuk@vis-design.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Vis\\LaravelRedirectPage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vis\\LaravelRedirectPage\\VisRedirectPageServiceProvider"
+            ]
+        }
+    }
+}
