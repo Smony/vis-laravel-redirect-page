@@ -1,6 +1,6 @@
 <?php
 
-namespace Vis\LaravelRedirectPage\Middleware;
+namespace Smony\LaravelRedirectPage\Middleware;
 
 use Closure;
 

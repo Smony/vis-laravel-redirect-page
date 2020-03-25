@@ -16,7 +16,7 @@ return [
     ],
     'options' => [
         'caption' => 'Редиректы',
-        'model' => 'Vis\LaravelRedirectPage\Redirect',
+        'model' => 'Smony\LaravelRedirectPage\Redirect',
     ],
 
     'fields' => [

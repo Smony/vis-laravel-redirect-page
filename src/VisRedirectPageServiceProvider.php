@@ -1,6 +1,6 @@
 <?php
 
-namespace Vis\LaravelRedirectPage;
+namespace Smony\LaravelRedirectPage;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vis\LaravelRedirectPage;
+namespace Smony\LaravelRedirectPage;
 
 use Illuminate\Database\Eloquent\Model;
 

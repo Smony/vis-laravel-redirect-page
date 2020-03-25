@@ -1,5 +1,5 @@
 {
-    "name": "vis/laravel-redirect-page",
+    "name": "smony/laravel-redirect-page",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,13 +12,13 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Vis\\LaravelRedirectPage\\": "src/"
+            "Smony\\LaravelRedirectPage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vis\\LaravelRedirectPage\\VisRedirectPageServiceProvider"
+                "Smony\\LaravelRedirectPage\\VisRedirectPageServiceProvider"
             ]
         }
     }
