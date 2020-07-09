@@ -1,25 +1,36 @@
 # Vis Laravel Redirect page
 
-# Installation
+## Installation
 
-####Publish the configs:
-######Install the package
+```sh
+composer require smony/laravel-redirect-page
 ```
+
+### Publish the configs
+Published configs
+
+```php
 php artisan vendor:publish --provider="Vis\LaravelRedirectPage\VisRedirectPageServiceProvider" --tag="migrations"
-```
-######Published configs
-```
+
 php artisan vendor:publish --provider="Vis\LaravelRedirectPage\VisRedirectPageServiceProvider" --tag="config"
 ```
-######Published configs for `builder_lara_5`
-```
+
+Published config for `builder_lara_5`
+
+```php
 php artisan vendor:publish --provider="Vis\LaravelRedirectPage\VisRedirectPageServiceProvider" --tag="vis-config"
 ```
-######Add middleware
+
+Add middleware for class Kernel
+
+```php
+ protected $middleware = [
+    \Vis\LaravelRedirectPage\Middleware\VisRedirect::class,
+  ];
 ```
-\Vis\LaravelRedirectPage\Middleware\VisRedirect::class,
-```
-######Publish migration
-```
+
+Publish migration
+
+```php
 php artisan migrate
 ```
